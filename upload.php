@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
 $host = 'localhost'; // Database host
-$db = 'root'; // Database name
-$user = ''; // Database user
-$pass = 'csv'; // Database password
+$db = 'csv'; // Database name
+$user = 'root'; // Database user
+$pass = ''; // Database password
 
 // Create connection
 $conn = new mysqli($host, $user, $pass, $db);
